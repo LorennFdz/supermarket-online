@@ -9,7 +9,7 @@ export function usePagination() {
   useEffect(() => {
     setLoading(true)
     setError(null)
-    fetch('./mocks/products.json')
+    fetch('/src/mocks/products.json')
     .then(async res => {
       if(!res.ok) throw new Error("Error en la carga de productos")
       return await res.json()
