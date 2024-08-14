@@ -1,0 +1,215 @@
+.hidden {
+    position: relative;
+    top: -1000px;
+}
+.products {
+    width: 100%;
+}
+.products-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    list-style: none;
+    text-align: center;
+    color: rgb(81, 81, 81);
+}
+.products-list li {
+    position: relative;
+    max-width: 45%;
+    max-height: 35%;
+    padding: 0.625rem;
+    border: 1px solid #dbdbdb;
+    border-radius: 0.35rem;
+}
+.products-list li .text-product h3 {
+    color: #515151;
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.products-list li .text-product span {
+    color: #2088E2;
+    font-size: 18px;
+    font-weight: 600;
+}
+.products-list li .btns-product {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+.products-list li .btns-product button {
+    cursor: pointer;
+    border: none;
+    width: 30px;
+    height: 30px;
+}
+.products-list li .btn-addToCart {
+    padding: 2px;
+}
+.products-list li .span-addToCart {
+    border-radius: 10px;
+    background: #f3ab25;
+    color: #F5F5F5;
+    position: absolute;
+    width: 45%;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 10px;
+    font-size: 12px;
+    padding: 0.313em;
+    letter-spacing: 0.063em;
+}
+.products .null-products-text {
+    width: fit-content;
+    margin: 100px auto;
+    color: #929292;
+    font-size: 24px;
+}
+.pagination {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px auto;
+}
+.pagination .btn-pagination {
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50px;
+    background: transparent;
+    outline: none;
+    color: #2088E2;
+    font-size: 16px;
+    cursor: pointer;
+}
+.pagination .input-pagination {
+    width: 40px;
+    height: 40px;
+    border: 1.5px solid #2088E2;
+    border-radius: 10px;
+    background: transparent;
+    text-align: center;
+    outline: none;
+    color: #2088E2;
+    font-size: 24px;
+}
+.pagination .btn-pagination.disable {
+    opacity: .5;
+    cursor: default;
+}
+@media screen and (min-width: 750px){
+    .products-list li {
+        max-width: 22%;
+    }
+}
+@media screen and (min-width: 1023px) {
+    .products {
+        width: 100%;
+    }
+    .products-list {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 16px;
+        list-style: none;
+        text-align: center;
+        color: rgb(81, 81, 81);
+    }
+    .products-list li {
+        position: relative;
+        max-width: 200px;
+        height: auto;
+        padding: 1.5rem 0.625rem;
+        border: 1px solid #dbdbdb;
+        border-radius: 0.35rem;
+    }
+    .products-list li .text-product h3 {
+        color: #515151;
+        font-size: 14px;
+        font-weight: 300;
+        margin-top: 10px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+    .products-list li .text-product span {
+        color: #2088E2;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .products-list li .btns-product {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 15px;
+    }
+    .products-list li .btns-product button {
+        cursor: pointer;
+        border: none;
+        width: 30px;
+        height: 30px;
+    }
+    .products-list li .btn-addToCart {
+        padding: 2px;
+    }
+    .products-list li .span-addToCart {
+        border-radius: 20px;
+        background: #2088E2;
+        color: #F5F5F5;
+        position: absolute;
+        width: 60%;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 5px;
+        font-size: 12px;
+        padding: 2px;
+    }
+    .products .null-products-text {
+        width: fit-content;
+        margin: 100px auto;
+        color: #929292;
+        font-size: 24px;
+    }
+    .pagination {
+        width: 30%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+        margin-top: 15px;
+    }
+    .pagination .btn-pagination {
+        width: 50px;
+        height: 50px;
+        border: none;
+        border-radius: 50px;
+        background: transparent;
+        outline: none;
+        color: #2088E2;
+        font-size: 16px;
+        cursor: pointer;
+    }
+    .pagination .input-pagination {
+        width: 40px;
+        height: 40px;
+        border: 1.5px solid #2088E2;
+        border-radius: 10px;
+        background: transparent;
+        text-align: center;
+        outline: none;
+        color: #2088E2;
+        font-size: 24px;
+    }
+    .pagination .btn-pagination.disable {
+        opacity: .5;
+        cursor: default;
+    }
+}
