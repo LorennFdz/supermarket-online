@@ -71,7 +71,7 @@ export function Navbar() {
       </article>
       <figure className="logo-mobile icons-navbar" title='Logo Supermarket'>
         <Link to={"/"} >
-          <img src="../src/img/gral/logo-mobile.png" alt="Logo Supermarket Online"/>
+          <img src="/src/img/gral/logo-mobile.png" alt="Logo Supermarket Online"/>
         </Link>
       </figure>
       <figure onClick={handleModalCart} className='icons-navbar icon-shopping-cart'>
@@ -132,7 +132,7 @@ export function Navbar() {
     <>
     <nav className="navbar">
       <Link to={"/"} className="logo" title='Logo Supermarket'>
-          <img src="../src/img/gral/logo-nuevo-h-w-sin-bg-copia.png" alt="Logo Supermarket Online"/>
+          <img src="./src/img/gral/logo-nuevo-h-w-sin-bg-copia.png" alt="Logo Supermarket Online"/>
       </Link>
       <article  className="input-search-desktop">
         <Input placeholder='Alimentos, Bebidas, Frutas, Verduras...'/>
