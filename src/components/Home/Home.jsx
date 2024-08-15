@@ -123,7 +123,7 @@ export function Home(){
       {/* ---------------------DE-LA---------------------------------- */}
       {/* -------------------CONDICION-------------------------------- */}
       {/* --------------------DE-ABAJO-------------------------------- */}
-      {products.length >= 0 && innerWidth < 1023 ?
+      {products.length > 0 && innerWidth < 1023 ?
       <>
       <section>
           <section className="orderby-filters-mobile">
@@ -179,9 +179,9 @@ export function Home(){
         <Product products={newProducts}/>
       </section>
       </>}
-      {loading && <p className="loading-text">Cargando...</p>}
+      {/*loading && <p className="loading-text">Cargando...</p>*/}
 
-      { error && <p className="loading-text">¡Ha habido un error, por favor intente más tarde!</p>}
+      {error && <p className="loading-text">¡Ha habido un error, por favor intente más tarde!</p>}
 
       {!loading && !error && products.length === 0 && <p className="loading-text">No hay productos que mostrar</p>}
     </main>

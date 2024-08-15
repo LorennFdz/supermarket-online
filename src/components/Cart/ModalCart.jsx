@@ -2,8 +2,13 @@ import { Link } from 'react-router-dom'
 import './modal-cart.css'
 import { useCart } from '../../hooks/useCart'
 import { IconCloseModalCart, IconEmptyCart, IconTrash } from '../Icons/Icons'
+import iconMyCart from '/src/icons/my-cart.svg'
 
 export function ModalCartItem({ image, title, brand, price, quantity, subtractQuantity, addToCart, removeFromCart }) {
+  console.log("Holaholahola");
+  
+  console.log({image});
+  
   return (
     <li>
       <figure className='img-product-cart'>
@@ -52,7 +57,7 @@ export function ModalCart({ openModalCart, handleModalCart }) {
       <header className='header-cart'>
         <section className='my-cart'>
           <figure>
-            <img src="../src/icons/my-cart.svg" alt="" />
+            <img src={iconMyCart} alt="" />
           </figure>
           <h1>Mi Carrito</h1>
         </section>
@@ -69,13 +74,14 @@ export function ModalCart({ openModalCart, handleModalCart }) {
           {cart.map(itemCart => (
             // separe el item del carrito y le paso todas las funciones del provider
             // y tambien el itemCart ( que es el producto completo )
-          <ModalCartItem 
+          <ModalCartItem
             key={itemCart.id}
             subtractQuantity={() => subtractQuantity(itemCart)}
             addToCart={() => addToCart(itemCart)}
             removeFromCart={() => removeFromCart(itemCart)}
             {... itemCart}
-          />
+            
+            />
           ))}
         </ul> :
         <section className='empty-my-cart'>

@@ -8,7 +8,7 @@
       "subcategory": "Harinas",
       "category": "Almacen",
       "favorite": false,
-      "image": "../src/img/products/foods/aceite-pureza.webp",
+      "image": "/img/products/foods/aceite-pureza.webp",
       "description": "Aceite de Girasol Pureza",
       "stock": 10
     },
@@ -20,7 +20,7 @@
       "subcategory": "Fideos",
       "category": "Almacen",
       "favorite": false,
-      "image": "../src/img/products/foods/fideos-tallarin-lucchetti.webp",
+      "image": "/img/products/foods/fideos-tallarin-lucchetti.webp",
       "description": "Fideos Tallarines Lucchetti",
       "stock": 20
     },
@@ -32,7 +32,7 @@
       "subcategory": "Fideos",
       "category": "Almacen",
       "favorite": false,
-      "image": "../src/img/products/foods/fideos-tirabuzon-lucchetti.webp",
+      "image": "/img/products/foods/fideos-tirabuzon-lucchetti.webp",
       "description": "Fideos Tirabuzones Lucchetti",
       "stock": 15
     },
@@ -44,7 +44,7 @@
       "subcategory": "Aderezos",
       "category": "Almacen",
       "favorite": false,
-      "image": "../src/img/products/foods/mayonesa-natura.webp",
+      "image": "/img/products/foods/mayonesa-natura.webp",
       "description": "Mayonesa Natura",
       "stock": 18
     },
@@ -56,7 +56,7 @@
       "subcategory": "Arroz",
       "category": "Almacen",
       "favorite": false,
-      "image": "../src/img/products/foods/arroz-vanguardia.webp",
+      "image": "/img/products/foods/arroz-vanguardia.webp",
       "description": "Arroz Vanguardia",
       "stock": 17
     },
@@ -68,7 +68,7 @@
       "subcategory": "Salsas de Tomate",
       "category": "Almacen",
       "favorite": false,
-      "image": "../src/img/products/foods/pure-tomates-alco.webp",
+      "image": "/img/products/foods/pure-tomates-alco.webp",
       "description": "Pure de Tomates Alco",
       "stock": 15
     },
@@ -80,7 +80,7 @@
       "subcategory": "Sal",
       "category": "Almacen",
       "favorite": false,
-      "image": "../src/img/products/foods/sal-fina-celusal.webp",
+      "image": "/img/products/foods/sal-fina-celusal.webp",
       "description": "Sal fina Celusal",
       "stock": 25
     },
@@ -92,7 +92,7 @@
       "subcategory": "Fideos",
       "category": "Almacen",
       "favorite": false,
-      "image": "../src/img/products/foods/fideos-mostachol-lucchetti.webp",
+      "image": "/img/products/foods/fideos-mostachol-lucchetti.webp",
       "description": "Fideos mostachol Lucchetti",
       "stock": 14
     },
@@ -104,7 +104,7 @@
       "subcategory": "Aderezos",
       "category": "Almacen",
       "favorite": false,
-      "image": "../src/img/products/foods/ketchup-hellmanns.webp",
+      "image": "/img/products/foods/ketchup-hellmanns.webp",
       "description": "Ketchup Hellmans",
       "stock": 16
     },
@@ -116,7 +116,7 @@
       "subcategory": "Legumbres",
       "category": "Almacen",
       "favorite": false,
-      "image": "../src/img/products/foods/arvejas-secas-inalpa.webp",
+      "image": "/img/products/foods/arvejas-secas-inalpa.webp",
       "description": "Arvejas secas Inalpa",
       "stock": 19
     },
@@ -128,7 +128,7 @@
       "subcategory": "Pate y Picadillo",
       "category": "Almacen",
       "favorite": false,
-      "image": "../src/img/products/foods/pate-swift.webp",
+      "image": "/img/products/foods/pate-swift.webp",
       "description": "Pate Swift",
       "stock": 10
     },
@@ -140,7 +140,7 @@
       "subcategory": "Pate y Picadillo",
       "category": "Almacen",
       "favorite": false,
-      "image": "../src/img/products/foods/picadillo-swift.webp",
+      "image": "/img/products/foods/picadillo-swift.webp",
       "description": "Picadillo Swift",
       "stock": 22
     },
@@ -152,7 +152,7 @@
       "subcategory": "Saborizadores",
       "category": "Almacen",
       "favorite": false,
-      "image": "../src/img/products/foods/provenzal.webp",
+      "image": "/img/products/foods/provenzal.webp",
       "description": "Provenzal",
       "stock": 10
     },
@@ -164,7 +164,7 @@
       "subcategory": "Saborizadores",
       "category": "Almacen",
       "favorite": false,
-      "image": "../src/img/products/foods/pimenton.webp",
+      "image": "/img/products/foods/pimenton.webp",
       "description": "Pimentón",
       "stock": 20
     },
@@ -176,7 +176,7 @@
       "subcategory": "Aceites",
       "category": "Almacen",
       "favorite": false,
-      "image": "../src/img/products/foods/aceite-cañuelas.webp",
+      "image": "/img/products/foods/aceite-cañuelas.webp",
       "description": "Aceite de Girasol Cañuelas",
       "stock": 16
     },
@@ -188,7 +188,7 @@
       "subcategory": "Saborizadores",
       "category": "Almacen",
       "favorite": false,
-      "image": "../src/img/products/foods/oregano.webp",
+      "image": "/img/products/foods/oregano.webp",
       "description": "Orégano",
       "stock": 21
     },
@@ -200,7 +200,7 @@
       "subcategory": "Vinagre",
       "category": "Almacen",
       "favorite": false,
-      "image": "../src/img/products/foods/vinagre-menoyo.webp",
+      "image": "/img/products/foods/vinagre-menoyo.webp",
       "description": "Vinagre de Alcohol Menoyo",
       "stock": 20
     },
@@ -212,7 +212,7 @@
       "subcategory": "Purés Instantaneos",
       "category": "Almacen",
       "favorite": false,
-      "image": "../src/img/products/foods/pure-papas-maggi.webp",
+      "image": "/img/products/foods/pure-papas-maggi.webp",
       "description": "Pure de Papas Maggi",
       "stock": 17
     },
@@ -224,7 +224,7 @@
       "subcategory": "Sal",
       "category": "Almacen",
       "favorite": false,
-      "image": "../src/img/products/foods/sal-gruesa-dos-anclas.webp",
+      "image": "/img/products/foods/sal-gruesa-dos-anclas.webp",
       "description": "Sal Gruesa Dos Anclas",
       "stock": 10
     },
@@ -236,7 +236,7 @@
       "subcategory": "Harinas",
       "category": "Almacen",
       "favorite": false,
-      "image": "../src/img/products/foods/harina-pureza-pizzas.webp",
+      "image": "/img/products/foods/harina-pureza-pizzas.webp",
       "description": "Harina para Pizzas Pureza",
       "stock": 10
     },
@@ -248,7 +248,7 @@
       "subcategory": "Polentas",
       "category": "Almacen",
       "favorite": false,
-      "image": "../src/img/products/foods/polenta-presto-pronta.webp",
+      "image": "/img/products/foods/polenta-presto-pronta.webp",
       "description": "Polenta Presto Prenta",
       "stock": 25
     },
@@ -260,7 +260,7 @@
       "subcategory": "Saborizadores",
       "category": "Almacen",
       "favorite": false,
-      "image": "../src/img/products/foods/adobo-pizza.webp",
+      "image": "/img/products/foods/adobo-pizza.webp",
       "description": "Adobo para Pizzas",
       "stock": 26
     },
@@ -272,7 +272,7 @@
       "subcategory": "Jugos de Limón",
       "category": "Almacen",
       "favorite": false,
-      "image": "../src/img/products/foods/jugo-limon-minerva.webp",
+      "image": "/img/products/foods/jugo-limon-minerva.webp",
       "description": "Jugo de Limón Minerva",
       "stock": 15
     },
@@ -284,7 +284,7 @@
       "subcategory": "Caldos de Verdura",
       "category": "Almacen",
       "favorite": false,
-      "image": "../src/img/products/foods/caldo-verduras-knorr.webp",
+      "image": "/img/products/foods/caldo-verduras-knorr.webp",
       "description": "Caldo de Verduras Knorr",
       "stock": 12
     },
@@ -296,7 +296,7 @@
       "subcategory": "Saborizadores",
       "category": "Almacen",
       "favorite": false,
-      "image": "../src/img/products/foods/aji-molido.webp",
+      "image": "/img/products/foods/aji-molido.webp",
       "description": "Ají Molido",
       "stock": 10
     },
@@ -308,7 +308,7 @@
       "subcategory": "Salsas de Tomate",
       "category": "Almacen",
       "favorite": false,
-      "image": "../src/img/products/foods/pure-tomates-canale.webp",
+      "image": "/img/products/foods/pure-tomates-canale.webp",
       "description": "Pure de Tomates Canale",
       "stock": 14
     },
@@ -320,7 +320,7 @@
       "subcategory": "Legumbres",
       "category": "Almacen",
       "favorite": false,
-      "image": "../src/img/products/foods/garbanzos-tarragona.webp",
+      "image": "/img/products/foods/garbanzos-tarragona.webp",
       "description": "Garbanzos Tarragona",
       "stock": 23
     },
@@ -332,7 +332,7 @@
       "subcategory": "Aceites",
       "category": "Almacen",
       "favorite": false,
-      "image": "../src/img/products/foods/aceite-lira.webp",
+      "image": "/img/products/foods/aceite-lira.webp",
       "description": "Aceite de Girasol Lira",
       "stock": 14
     },
@@ -344,7 +344,7 @@
       "subcategory": "Legumbres",
       "category": "Almacen",
       "favorite": false,
-      "image": "../src/img/products/foods/lentejas-la-abaldia.webp",
+      "image": "/img/products/foods/lentejas-la-abaldia.webp",
       "description": "Lentejas La Abaldia",
       "stock": 11
     },
@@ -356,7 +356,7 @@
       "subcategory": "Sal",
       "category": "Almacen",
       "favorite": false,
-      "image": "../src/img/products/foods/sal-parrillera-dos-anclas.webp",
+      "image": "/img/products/foods/sal-parrillera-dos-anclas.webp",
       "description": "Sal Parrillera Dos Anclas",
       "stock": 10
     },
@@ -368,7 +368,7 @@
       "subcategory": "Harinas",
       "category": "Almacen",
       "favorite": false,
-      "image": "../src/img/products/foods/harina-leudante-blancaflor.webp",
+      "image": "/img/products/foods/harina-leudante-blancaflor.webp",
       "description": "Harina Leudante Blancaflor",
       "stock": 10
     },
@@ -380,7 +380,7 @@
       "subcategory": "Harinas",
       "category": "Almacen",
       "favorite": false,
-      "image": "../src/img/products/foods/harina-cañuelas.webp",
+      "image": "/img/products/foods/harina-cañuelas.webp",
       "description": "Harina Refinada Cañuelas",
       "stock": 25
     },
@@ -392,7 +392,7 @@
       "subcategory": "Fideos",
       "category": "Almacen",
       "favorite": false,
-      "image": "../src/img/products/foods/fideos-coditos-terrabusi.webp",
+      "image": "/img/products/foods/fideos-coditos-terrabusi.webp",
       "description": "Fideos Coditos Terrabusi",
       "stock": 14
     },
@@ -404,7 +404,7 @@
       "subcategory": "Aderezos",
       "category": "Almacen",
       "favorite": false,
-      "image": "../src/img/products/foods/mostaza-natura.webp",
+      "image": "/img/products/foods/mostaza-natura.webp",
       "description": "Mostaza Natura",
       "stock": 16
     },
@@ -416,7 +416,7 @@
       "subcategory": "Aderezos",
       "category": "Almacen",
       "favorite": false,
-      "image": "../src/img/products/foods/mayonesa-bc.webp",
+      "image": "/img/products/foods/mayonesa-bc.webp",
       "description": "Mayonesa Bc",
       "stock": 12
     },
@@ -428,7 +428,7 @@
       "subcategory": "Harinas",
       "category": "Almacen",
       "favorite": false,
-      "image": "../src/img/products/foods/harina-pureza-refinada.webp",
+      "image": "/img/products/foods/harina-pureza-refinada.webp",
       "description": "Harina Refinada Pureza",
       "stock": 14
     },
@@ -440,7 +440,7 @@
       "subcategory": "Snacks",
       "category": "Almacen",
       "favorite": false,
-      "image": "../src/img/products/foods/palitos-krachitos.webp",
+      "image": "/img/products/foods/palitos-krachitos.webp",
       "description": "Palitos krachitos",
       "stock": 27
     },
@@ -452,7 +452,7 @@
       "subcategory": "Harinas",
       "category": "Almacen",
       "favorite": false,
-      "image": "../src/img/products/foods/harina-trigo-favorita.webp",
+      "image": "/img/products/foods/harina-trigo-favorita.webp",
       "description": "Harina de Trigo Favorita",
       "stock": 16
     },
@@ -464,7 +464,7 @@
       "subcategory": "Arroz",
       "category": "Almacen",
       "favorite": false,
-      "image": "../src/img/products/foods/risotto-gallo.webp",
+      "image": "/img/products/foods/risotto-gallo.webp",
       "description": "Risotto 4 Quesos Gallo",
       "stock": 18
     },
@@ -476,7 +476,7 @@
       "subcategory": "Snacks",
       "category": "Almacen",
       "favorite": false,
-      "image": "../src/img/products/foods/papas-fritas-krachitos.webp",
+      "image": "/img/products/foods/papas-fritas-krachitos.webp",
       "description": "Papas Fritas Krachitos",
       "stock": 14
     },
@@ -488,7 +488,7 @@
       "subcategory": "Ravioles",
       "category": "Almacen",
       "favorite": false,
-      "image": "../src/img/products/foods/ravioles-la-salteña.webp",
+      "image": "/img/products/foods/ravioles-la-salteña.webp",
       "description": "Ravioles de Jamon y Mozzarella La Salteña",
       "stock": 18
     },
@@ -500,7 +500,7 @@
       "subcategory": "Saborizadores",
       "category": "Almacen",
       "favorite": false,
-      "image": "../src/img/products/foods/condimento-arroz.webp",
+      "image": "/img/products/foods/condimento-arroz.webp",
       "description": "Condimento para Arroz",
       "stock": 27
     },
@@ -512,7 +512,7 @@
       "subcategory": "Budines",
       "category": "Almacen",
       "favorite": false,
-      "image": "../src/img/products/foods/exquisita-budin-vainilla.webp",
+      "image": "/img/products/foods/exquisita-budin-vainilla.webp",
       "description": "Budin de Vainilla Exquisita",
       "stock": 18
     },
@@ -524,7 +524,7 @@
       "subcategory": "Budines",
       "category": "Almacen",
       "favorite": false,
-      "image": "../src/img/products/foods/exquisita-budin-chocolate.webp",
+      "image": "/img/products/foods/exquisita-budin-chocolate.webp",
       "description": "Budin de Chocolate Exquisita",
       "stock": 13
     },
@@ -536,7 +536,7 @@
       "subcategory": "Saborizadores",
       "category": "Almacen",
       "favorite": false,
-      "image": "../src/img/products/foods/comino-molido.webp",
+      "image": "/img/products/foods/comino-molido.webp",
       "description": "Comino Molido",
       "stock": 19
     },
@@ -548,7 +548,7 @@
       "subcategory": "Saborizadores",
       "category": "Almacen",
       "favorite": false,
-      "image": "../src/img/products/foods/pimienta-negra.webp",
+      "image": "/img/products/foods/pimienta-negra.webp",
       "description": "Pimienta Negra",
       "stock": 18
     },
@@ -560,7 +560,7 @@
       "subcategory": "Fideos",
       "category": "Almacen",
       "favorite": false,
-      "image": "../src/img/products/foods/fideos-tallarin-marolio.webp",
+      "image": "/img/products/foods/fideos-tallarin-marolio.webp",
       "description": "Fideos Tallarines Marolio",
       "stock": 29
     },
@@ -572,7 +572,7 @@
       "subcategory": "Aderezos",
       "category": "Almacen",
       "favorite": false,
-      "image": "../src/img/products/foods/salsa-barbacoa-la-campagnola.webp",
+      "image": "/img/products/foods/salsa-barbacoa-la-campagnola.webp",
       "description": "Salsa Barbacoa La Campagnola",
       "stock": 18
     },
@@ -584,7 +584,7 @@
       "subcategory":  "Snacks",
       "category": "Almacen",
       "favorite": false,
-      "image": "../src/img/products/foods/papas-fritas-lays.webp",
+      "image": "/img/products/foods/papas-fritas-lays.webp",
       "description": "Papas Fritas Lays",
       "stock": 19
     },
@@ -596,7 +596,7 @@
       "subcategory": "Galletitas",
       "category": "Almacen",
       "favorite": false,
-      "image": "../src/img/products/foods/galletitas-saladix.webp",
+      "image": "/img/products/foods/galletitas-saladix.webp",
       "description": "Galletitas Saladix",
       "stock": 15
     },
@@ -608,7 +608,7 @@
       "subcategory": "Salsas de Tomate",
       "category": "Almacen",
       "favorite": false,
-      "image": "../src/img/products/foods/tomate-triturado-don-francisco.webp",
+      "image": "/img/products/foods/tomate-triturado-don-francisco.webp",
       "description": "Tomate Triturado Don Francisco",
       "stock": 14
     },
@@ -620,7 +620,7 @@
       "subcategory": "Saborizadores",
       "category": "Almacen",
       "favorite": false,
-      "image": "../src/img/products/foods/bolsa-horno-knorr.webp",
+      "image": "/img/products/foods/bolsa-horno-knorr.webp",
       "description": "Bolsa para Horno tipo criollo Knorr",
       "stock": 22
     },
@@ -632,7 +632,7 @@
       "subcategory": "Arroz",
       "category": "Almacen",
       "favorite": false,
-      "image": "../src/img/products/foods/arroz-largo-gallo.webp",
+      "image": "/img/products/foods/arroz-largo-gallo.webp",
       "description": "Arroz Largo Fino Gallo",
       "stock": 15
     },
@@ -644,7 +644,7 @@
       "subcategory": "Gelatina",
       "category": "Almacen",
       "favorite": false,
-      "image": "../src/img/products/foods/gelatina-frutilla-bc.webp",
+      "image": "/img/products/foods/gelatina-frutilla-bc.webp",
       "description": "Gelatina de Frutilla BC",
       "stock": 13
     },
@@ -656,7 +656,7 @@
       "subcategory": "Gelatina",
       "category": "Almacen",
       "favorite": false,
-      "image": "../src/img/products/foods/gelatina-cereza-exquisita.webp",
+      "image": "/img/products/foods/gelatina-cereza-exquisita.webp",
       "description": "Gelatina de Cereza Exquisita",
       "stock": 15
     },
@@ -668,7 +668,7 @@
       "subcategory": "Aderezos",
       "category": "Almacen",
       "favorite": false,
-      "image": "../src/img/products/foods/salsa-golf-natura.webp",
+      "image": "/img/products/foods/salsa-golf-natura.webp",
       "description": "Salsa Golf Natura",
       "stock": 18
     },
@@ -680,7 +680,7 @@
       "subcategory": "Galletitas",
       "category": "Almacen",
       "favorite": false,
-      "image": "../src/img/products/foods/galletitas-queso-kesitas.webp",
+      "image": "/img/products/foods/galletitas-queso-kesitas.webp",
       "description": "Galletitas con Queso Kesitas",
       "stock": 28
     },
@@ -692,7 +692,7 @@
       "subcategory": "Galletitas",
       "category": "Almacen",
       "favorite": false,
-      "image": "../src/img/products/foods/galletitas-queso-rex.webp",
+      "image": "/img/products/foods/galletitas-queso-rex.webp",
       "description": "Galletitas con Queso Rex",
       "stock": 17
     },
@@ -704,7 +704,7 @@
       "subcategory": "Snacks",
       "category": "Almacen",
       "favorite": false,
-      "image": "../src/img/products/foods/tubitos-3d.webp",
+      "image": "/img/products/foods/tubitos-3d.webp",
       "description": "Tubitos 3D",
       "stock": 17
     },
@@ -716,7 +716,7 @@
       "subcategory": "Arroz",
       "category": "Almacen",
       "favorite": false,
-      "image": "../src/img/products/foods/risotto-pronto-gallo.webp",
+      "image": "/img/products/foods/risotto-pronto-gallo.webp",
       "description": "Risotto Pronto Gallo",
       "stock": 16
     },
@@ -728,7 +728,7 @@
       "subcategory": "Legumbres",
       "category": "Almacen",
       "favorite": false,
-      "image": "../src/img/products/foods/porotos-negros-inalpa.webp",
+      "image": "/img/products/foods/porotos-negros-inalpa.webp",
       "description": "Porotos Negros Inalpa",
       "stock": 17
     },
@@ -740,7 +740,7 @@
       "subcategory": "Agua Saborizada",
       "category": "Bebidas",
       "favorite": false,
-      "image": "../src/img/products/drinks/agua-saborizada-aquarius.webp",
+      "image": "/img/products/drinks/agua-saborizada-aquarius.webp",
       "description": "Agua Saborizada Aquarius",
       "stock": 27
     },
@@ -752,7 +752,7 @@
       "subcategory": "Agua Mineral",
       "category": "Bebidas",
       "favorite": false,
-      "image": "../src/img/products/drinks/agua-villavicencio.webp",
+      "image": "/img/products/drinks/agua-villavicencio.webp",
       "description": "Agua Mineral Villavicencio",
       "stock": 19
     },
@@ -764,7 +764,7 @@
       "subcategory": "Aperitivo",
       "category": "Bebidas",
       "favorite": false,
-      "image": "../src/img/products/drinks/fernet-branca.webp",
+      "image": "/img/products/drinks/fernet-branca.webp",
       "description": "Fernet Branca de 750 ml",
       "stock": 19
     },
@@ -776,7 +776,7 @@
       "subcategory": "Jugos",
       "category": "Bebidas",
       "favorite": false,
-      "image": "../src/img/products/drinks/jugo-clight-naranja.webp",
+      "image": "/img/products/drinks/jugo-clight-naranja.webp",
       "description": "Jugo de Naranja Clight",
       "stock": 14
     },
@@ -788,7 +788,7 @@
       "subcategory": "Jugos",
       "category": "Bebidas",
       "favorite": false,
-      "image": "../src/img/products/drinks/jugo-clight-pomelo.webp",
+      "image": "/img/products/drinks/jugo-clight-pomelo.webp",
       "description": "Jugo de Pomelo Clight",
       "stock": 18
     },
@@ -800,7 +800,7 @@
       "subcategory": "Gaseosas",
       "category": "Bebidas",
       "favorite": false,
-      "image": "../src/img/products/drinks/gaseosa-coca-cola.webp",
+      "image": "/img/products/drinks/gaseosa-coca-cola.webp",
       "description": "Gaseosa Coca Cola de 1.5L",
       "stock": 26
     },
@@ -812,7 +812,7 @@
       "subcategory": "Gaseosas",
       "category": "Bebidas",
       "favorite": false,
-      "image": "../src/img/products/drinks/gaseosa-pepsi.webp",
+      "image": "/img/products/drinks/gaseosa-pepsi.webp",
       "description": "Gaseosa cola Pepsi de 2L",
       "stock": 17
     },
@@ -824,7 +824,7 @@
       "subcategory": "Gaseosas",
       "category": "Bebidas",
       "favorite": false,
-      "image": "../src/img/products/drinks/gaseosa-7-up.webp",
+      "image": "/img/products/drinks/gaseosa-7-up.webp",
       "description": "Gaseosa lima limón 7 Up",
       "stock": 17
     },
@@ -836,7 +836,7 @@
       "subcategory": "Agua Mineral",
       "category": "Bebidas",
       "favorite": false,
-      "image": "../src/img/products/drinks/agua-villa-del-sur.webp",
+      "image": "/img/products/drinks/agua-villa-del-sur.webp",
       "description": "Agua Mineral Villa del Sur",
       "stock": 10
     },
@@ -848,7 +848,7 @@
       "subcategory": "Vinos",
       "category": "Bebidas",
       "favorite": false,
-      "image": "../src/img/products/drinks/vino-tinto-alma-mora.webp",
+      "image": "/img/products/drinks/vino-tinto-alma-mora.webp",
       "description": "Vino tinto Alma Mora",
       "stock": 18
     },
@@ -860,7 +860,7 @@
       "subcategory": "Cervezas",
       "category": "Bebidas",
       "favorite": false,
-      "image": "../src/img/products/drinks/cerveza-schneider.webp",
+      "image": "/img/products/drinks/cerveza-schneider.webp",
       "description": "Cerveza schneider 750 ml",
       "stock": 26
     },
@@ -872,7 +872,7 @@
       "subcategory": "Gaseosas",
       "category": "Bebidas",
       "favorite": false,
-      "image": "../src/img/products/drinks/gaseosa-cunnington.webp",
+      "image": "/img/products/drinks/gaseosa-cunnington.webp",
       "description": "Gaseosa de Pomelo Cunnington",
       "stock": 10
     },
@@ -884,7 +884,7 @@
       "subcategory": "Vinos",
       "category": "Bebidas",
       "favorite": false,
-      "image": "../src/img/products/drinks/vino-blanco-tardia.webp",
+      "image": "/img/products/drinks/vino-blanco-tardia.webp",
       "description": "Vino Blanco Cosecha Tardia",
       "stock": 15
     },
@@ -896,7 +896,7 @@
       "subcategory": "Gaseosas",
       "category": "Bebidas",
       "favorite": false,
-      "image": "../src/img/products/drinks/gaseosa-fanta.webp",
+      "image": "/img/products/drinks/gaseosa-fanta.webp",
       "description": "Gaseosa Fanta Zero Naranja",
       "stock": 10
     },
@@ -908,7 +908,7 @@
       "subcategory": "Aperitivo",
       "category": "Bebidas",
       "favorite": false,
-      "image": "../src/img/products/drinks/aperitivo-gancia.webp",
+      "image": "/img/products/drinks/aperitivo-gancia.webp",
       "description": "Aperitivo Gancia 950 ml",
       "stock": 18
     },
@@ -920,7 +920,7 @@
       "subcategory": "Gaseosas",
       "category": "Bebidas",
       "favorite": false,
-      "image": "../src/img/products/drinks/gaseosa-sprite.webp",
+      "image": "/img/products/drinks/gaseosa-sprite.webp",
       "description": "Gaseosa Limón Sprite",
       "stock": 20
     },
@@ -932,7 +932,7 @@
       "subcategory": "Cervezas",
       "category": "Bebidas",
       "favorite": false,
-      "image": "../src/img/products/drinks/cerveza-corona.webp",
+      "image": "/img/products/drinks/cerveza-corona.webp",
       "description": "Cerveza Corona 330 ml",
       "stock": 13
     },
@@ -944,7 +944,7 @@
       "subcategory": "Gaseosas",
       "category": "Bebidas",
       "favorite": false,
-      "image": "../src/img/products/drinks/gaseosa-crush.webp",
+      "image": "/img/products/drinks/gaseosa-crush.webp",
       "description": "Gaseosa Crush Limon 2.25L",
       "stock": 14
     },
@@ -956,7 +956,7 @@
       "subcategory": "Vinos",
       "category": "Bebidas",
       "favorite": false,
-      "image": "../src/img/products/drinks/vino-tinto-novecento.webp",
+      "image": "/img/products/drinks/vino-tinto-novecento.webp",
       "description": "Vino tinto Novecento",
       "stock": 15
     },
@@ -968,7 +968,7 @@
       "subcategory": "Agua Saborizada",
       "category": "Bebidas",
       "favorite": false,
-      "image": "../src/img/products/drinks/agua-saborizada-aquarius-naranja.webp",
+      "image": "/img/products/drinks/agua-saborizada-aquarius-naranja.webp",
       "description": "Agua Saborizada Aquarius Naranja",
       "stock": 10
     },
@@ -980,7 +980,7 @@
       "subcategory": "Papas",
       "category": "Congelados",
       "favorite": false,
-      "image": "../src/img/products/frozen/papas-baston-carrefour.webp",
+      "image": "/img/products/frozen/papas-baston-carrefour.webp",
       "description": "Papas baston tradicional",
       "stock": 16
     },
@@ -992,7 +992,7 @@
       "subcategory": "Hamburguesas",
       "category": "Congelados",
       "favorite": false,
-      "image": "../src/img/products/frozen/hamburguesa-carrefour-clasica.webp",
+      "image": "/img/products/frozen/hamburguesa-carrefour-clasica.webp",
       "description": "Hamburguesa Carrefour",
       "stock": 17
     },
@@ -1004,7 +1004,7 @@
       "subcategory": "Verduras y frutas",
       "category": "Congelados",
       "favorite": false,
-      "image": "../src/img/products/frozen/espinaca-lucchetti.webp",
+      "image": "/img/products/frozen/espinaca-lucchetti.webp",
       "description": "Espinaca Lucchetti",
       "stock": 27
     },
@@ -1016,7 +1016,7 @@
       "subcategory": "Hamburguesas",
       "category": "Congelados",
       "favorite": false,
-      "image": "../src/img/products/frozen/hamburguesa-paty.webp",
+      "image": "/img/products/frozen/hamburguesa-paty.webp",
       "description": "Hamburguesas Patyo",
       "stock": 19
     },
@@ -1028,7 +1028,7 @@
       "subcategory": "Hamburguesas",
       "category": "Congelados",
       "favorite": false,
-      "image": "../src/img/products/frozen/medallon-carne-vacuna.webp",
+      "image": "/img/products/frozen/medallon-carne-vacuna.webp",
       "description": "Medallón de carne vacuna",
       "stock": 19
     },
@@ -1040,7 +1040,7 @@
       "subcategory": "Verduras y frutas",
       "category": "Congelados",
       "favorite": false,
-      "image": "../src/img/products/frozen/choclo.webp",
+      "image": "/img/products/frozen/choclo.webp",
       "description": "Choclo congelado Granja Del Sol",
       "stock": 14
     },
@@ -1052,7 +1052,7 @@
       "subcategory": "Nuggets y rebozados",
       "category": "Congelados",
       "favorite": false,
-      "image": "../src/img/products/frozen/mila-soja.webp",
+      "image": "/img/products/frozen/mila-soja.webp",
       "description": "Milanesa de soja Granja del sol",
       "stock": 18
     },
@@ -1064,7 +1064,7 @@
       "subcategory": "Comidas y panificados",
       "category": "Congelados",
       "favorite": false,
-      "image": "../src/img/products/frozen/pizza-congelada.webp",
+      "image": "/img/products/frozen/pizza-congelada.webp",
       "description": "Pizza congelada Carrefour",
       "stock": 26
     },
@@ -1076,7 +1076,7 @@
       "subcategory": "Nuggets y rebozados",
       "category": "Congelados",
       "favorite": false,
-      "image": "../src/img/products/frozen/mila-soja-crocante.webp",
+      "image": "/img/products/frozen/mila-soja-crocante.webp",
       "description": "Milanesa Granja del sol",
       "stock": 17
     },
@@ -1088,7 +1088,7 @@
       "subcategory": "Hamburguesas",
       "category": "Congelados",
       "favorite": false,
-      "image": "../src/img/products/frozen/hamburguesa-swift-4.webp",
+      "image": "/img/products/frozen/hamburguesa-swift-4.webp",
       "description": "Hamburguesa Swift",
       "stock": 17
     },
@@ -1100,7 +1100,7 @@
       "subcategory": "Nuggets y rebozados",
       "category": "Congelados",
       "favorite": false,
-      "image": "../src/img/products/frozen/bocaditos-pollo.webp",
+      "image": "/img/products/frozen/bocaditos-pollo.webp",
       "description": "Bocaditos de pollo",
       "stock": 10
     },
@@ -1112,7 +1112,7 @@
       "subcategory": "Hamburguesas",
       "category": "Congelados",
       "favorite": false,
-      "image": "../src/img/products/frozen/hamburguesa-pollo.webp",
+      "image": "/img/products/frozen/hamburguesa-pollo.webp",
       "description": "Hamburguesas de pollo",
       "stock": 18
     },
@@ -1124,7 +1124,7 @@
       "subcategory": "Papas",
       "category": "Congelados",
       "favorite": false,
-      "image": "../src/img/products/frozen/papas-noisettes.webp",
+      "image": "/img/products/frozen/papas-noisettes.webp",
       "description": "Papas noisettes Carrefour",
       "stock": 26
     },
@@ -1136,7 +1136,7 @@
       "subcategory": "Papas",
       "category": "Congelados",
       "favorite": false,
-      "image": "../src/img/products/frozen/papas-mc-cain.webp",
+      "image": "/img/products/frozen/papas-mc-cain.webp",
       "description": "Papa tradicional Mc cain",
       "stock": 10
     },
@@ -1148,7 +1148,7 @@
       "subcategory": "Verduras y frutas",
       "category": "Congelados",
       "favorite": false,
-      "image": "../src/img/products/frozen/brocoli.webp",
+      "image": "/img/products/frozen/brocoli.webp",
       "description": "Brócoli congelado Granja del sol",
       "stock": 15
     },
@@ -1160,7 +1160,7 @@
       "subcategory": "Verduras y frutas",
       "category": "Congelados",
       "favorite": false,
-      "image": "../src/img/products/frozen/espinaca-granja.webp",
+      "image": "/img/products/frozen/espinaca-granja.webp",
       "description": "Espinaca congelada Granja del sol",
       "stock": 10
     },
@@ -1172,7 +1172,7 @@
       "subcategory": "Nuggets y rebozados",
       "category": "Congelados",
       "favorite": false,
-      "image": "../src/img/products/frozen/nuggets.webp",
+      "image": "/img/products/frozen/nuggets.webp",
       "description": "Nuggets Not chicken",
       "stock": 18
     },
@@ -1184,7 +1184,7 @@
       "subcategory": "Verduras y frutas",
       "category": "Congelados",
       "favorite": false,
-      "image": "../src/img/products/frozen/mila-soja-espinaca-crocante.webp",
+      "image": "/img/products/frozen/mila-soja-espinaca-crocante.webp",
       "description": "Milanesa Granja del sol",
       "stock": 20
     },
@@ -1196,7 +1196,7 @@
       "subcategory": "Nuggets y rebozados",
       "category": "Congelados",
       "favorite": false,
-      "image": "../src/img/products/frozen/mila-pollo-bandeja.webp",
+      "image": "/img/products/frozen/mila-pollo-bandeja.webp",
       "description": "Milanesa de pollo congelada",
       "stock": 13
     },
@@ -1208,7 +1208,7 @@
       "subcategory": "Hamburguesas",
       "category": "Congelados",
       "favorite": false,
-      "image": "../src/img/products/frozen/medallon-swift.webp",
+      "image": "/img/products/frozen/medallon-swift.webp",
       "description": "Medallón de carne Swift doble",
       "stock": 14
     },
@@ -1220,7 +1220,7 @@
       "subcategory": "Verduras y frutas",
       "category": "Congelados",
       "favorite": false,
-      "image": "../src/img/products/frozen/medallon-not-burger.webp",
+      "image": "/img/products/frozen/medallon-not-burger.webp",
       "description": "Medallón Not burger parrillera",
       "stock": 15
     },
@@ -1232,7 +1232,7 @@
       "subcategory": "Nuggets y rebozados",
       "category": "Congelados",
       "favorite": false,
-      "image": "../src/img/products/frozen/supremas-pollo.webp",
+      "image": "/img/products/frozen/supremas-pollo.webp",
       "description": "Supremitas de pollo Granja de sol",
       "stock": 10
     }
