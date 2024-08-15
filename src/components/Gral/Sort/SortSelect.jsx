@@ -4,7 +4,6 @@ import { useState } from 'react';
 export function SortSelect({ handleSortChange, itemSelected }) {
   const [openSort, setOpenSort] = useState(false);
   const innerWidth = window.innerWidth;
-  const img = '../src/icons/nav-arrow-down.svg';
   const handleSort = () => {
     setOpenSort(!openSort);
   }

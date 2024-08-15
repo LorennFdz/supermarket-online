@@ -13,7 +13,8 @@ import { useSort } from "../../hooks/useSort.js"
 import { useSearch } from "../../hooks/useSearch.js"
 import { QuantityProducts } from "../Gral/QuantityProducts/QuantityProducts";
 import { IconClose, IconFilters, IconOrderBy } from "../Icons/Icons.jsx";
-
+import publicityHome from '/src/img/gral/publicity-home.jpg'
+import publicityHome2 from '/src/img/gral/publicity-home-2.webp'
 export function Home(){
   const { loading, error, products, setCurrentPage } = usePagination();
   const innerWidth = window.innerWidth;
@@ -155,10 +156,10 @@ export function Home(){
         <Filters />
         <article className="publicity-home">
           <figure>
-            <img src="../src/img/gral/publicity-home.jpg" alt="" />
+            <img src={publicityHome} alt="" />
           </figure>
           <figure>
-            <img src="../src/img/gral/publicity-home-2.webp" alt="" />
+            <img src={publicityHome2} alt="" />
           </figure>
         </article>
       </section>

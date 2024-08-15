@@ -1,12 +1,13 @@
 import './footer.css'
 import { IconFacebook, IconInstagram, IconGithub, IconLinkedIn, IconVisa, IconMasterCard, IconAmericanExpress } from '../../Icons/Icons'
+import logoFooter from '/src/img/gral/logo-footer.png'
 export const Footer = () => {
   return (
     <footer className='footer'>
       <section className='fat-footer'>
         <article className='img-logo-footer header-fat-footer'>
           <figure>
-            <img src="../src/img/gral/logo-footer.png" alt="" />
+            <img src={logoFooter} alt="" />
           </figure>
         </article>
         <section className='container-content-fat-footer'>

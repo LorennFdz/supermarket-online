@@ -1,5 +1,5 @@
 import { createContext, useState } from "react";
-import { products } from '../mocks/products.json'
+import products from '/src/mocks/products.json'
 
 export const SearchContext = createContext();
 

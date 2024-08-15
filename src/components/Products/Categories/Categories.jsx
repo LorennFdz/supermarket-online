@@ -5,7 +5,12 @@ import { ProductItem } from "../../Gral/Product/Product"
 import './categories.css'
 import { useSlider } from "../../../hooks/useSlider"
 import { QuantityProducts } from "../../Gral/QuantityProducts/QuantityProducts"
-
+import imgFoodsPublicity from '/src/img/products/publicity/foods-recorted.jpg'
+import imgFoodsPublicity2 from '/src/img/products/publicity/foods-2-recorted.jpg'
+import imgDrinksPublicity from '/src/img/products/publicity/coke-cola-recorted.jpg'
+import imgDrinksPublicity2 from '/src/img/products/publicity/corona-recorted.jpg'
+import imgFrozenPublicity from '/src/img/products/publicity/frozen-recorted.jpg'
+import imgFrozenPublicity2 from '/src/img/products/publicity/frozen-2-recorted.jfif'
 export function Foods() {
   const categoryFoods = products.filter((prod) => prod.category === 'Almacen')
 
@@ -19,7 +24,7 @@ export function Foods() {
     <>
     <section className="category-drinks">
       <section className="publicity-drinks">
-        <img src="../src/img/products/publicity/foods-recorted.jpg" alt="" />
+        <img src={imgFoodsPublicity} alt="" />
       </section>
       <section className="products-page">
         <article className="header-products-page">
@@ -59,7 +64,7 @@ export function Foods() {
         </ul>
       </section>
       <section className="publicity-drinks">
-        <img src="../src/img/products/publicity/foods-2-recorted.jpg" alt="" />
+        <img src={imgFoodsPublicity2} alt="" />
       </section>
     </section>
     </>
@@ -75,7 +80,7 @@ export function Drinks() {
     <>
     <section className="category-drinks">
       <section className="publicity-drinks">
-        <img src="../src/img/products/publicity/coke-cola-recorted.jpg" alt="" />
+        <img src={imgDrinksPublicity} alt="" />
       </section>
       <section className="products-page">
         <article className="header-products-page">
@@ -101,7 +106,7 @@ export function Drinks() {
         </ul>
       </section>
       <section className="publicity-drinks">
-        <img src="../src/img/products/publicity/corona-recorted.jpg" alt="" />
+        <img src={imgDrinksPublicity2} alt="" />
       </section>
     </section>
     </>
@@ -118,7 +123,7 @@ export function Frozen() {
     <>
     <section className="category-drinks">
       <section className="publicity-drinks">
-        <img src="../src/img/products/publicity/frozen-recorted.jpg" alt="" />
+        <img src={imgFrozenPublicity} alt="" />
       </section>
       <section className="products-page">
         <article className="header-products-page">
@@ -144,7 +149,7 @@ export function Frozen() {
         </ul>
       </section>
       <section className="publicity-drinks">
-        <img src="../src/img/products/publicity/frozen-2-recorted.jfif" alt="" />
+        <img src={imgFrozenPublicity2} alt="" />
       </section>
     </section>
     </>

@@ -6,7 +6,8 @@ import { ModalCart } from '../../Cart/ModalCart';
 import { useCart } from '../../../hooks/useCart'
 import { IconHeart, IconHome, IconShoppingCart, IconProducts, IconProfileCircled, IconMenu, IconCloseModalCart, IconClose, IconFilters, IconSearch, IconTrash } from '../../Icons/Icons';
 import { useSearch } from '../../../hooks/useSearch';
-
+import logoMobile from '/src/img/gral/logo-mobile.png'
+import logoDesktop from '/src/img/gral/logo-nuevo-h-w-sin-bg-copia.png'
 export function Navbar() {
   const { cart } = useCart()
   const innerWidth = window.innerWidth;
@@ -71,7 +72,7 @@ export function Navbar() {
       </article>
       <figure className="logo-mobile icons-navbar" title='Logo Supermarket'>
         <Link to={"/"} >
-          <img src="../src/img/gral/logo-mobile.png" alt="Logo Supermarket Online"/>
+          <img src={logoMobile} alt="Logo Supermarket Online"/>
         </Link>
       </figure>
       <figure onClick={handleModalCart} className='icons-navbar icon-shopping-cart'>
@@ -132,7 +133,7 @@ export function Navbar() {
     <>
     <nav className="navbar">
       <Link to={"/"} className="logo" title='Logo Supermarket'>
-          <img src="../src/img/gral/logo-nuevo-h-w-sin-bg-copia.png" alt="Logo Supermarket Online"/>
+          <img src={logoDesktop} alt="Logo Supermarket Online"/>
       </Link>
       <article  className="input-search-desktop">
         <Input placeholder='Alimentos, Bebidas, Frutas, Verduras...'/>
@@ -173,7 +174,6 @@ export function Navbar() {
         <li onClick={handleModalCart}>
             <figure className='icons-navbar'>
               <IconShoppingCart />
-              {/*<img src='../src/icons/shopping-cart.png'/>*/}
             </figure>
           <span>Carrito</span>
           <strong className='cart-length'> {cart.length}</strong>
