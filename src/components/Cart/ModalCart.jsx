@@ -5,10 +5,6 @@ import { IconCloseModalCart, IconEmptyCart, IconTrash } from '../Icons/Icons'
 import iconMyCart from '/src/icons/my-cart.svg'
 
 export function ModalCartItem({ image, title, brand, price, quantity, subtractQuantity, addToCart, removeFromCart }) {
-  console.log("Holaholahola");
-  
-  console.log({image});
-  
   return (
     <li>
       <figure className='img-product-cart'>

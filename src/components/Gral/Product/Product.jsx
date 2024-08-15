@@ -14,12 +14,6 @@ export const checkProductFavorite = (product) => {
   //return favorite.some(item => item.id === product.id)
 }
 export function ProductItem({image, title, description, price, isProductFavorite, isProductInCart, removeFromCart, addToCart}) {
-  console.log("Hola product item");
-
-  console.log("imagen de product item : " + image);
-  
-  
-  
   return (
     <li>
       <figure>
