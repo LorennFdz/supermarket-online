@@ -3,13 +3,17 @@ import './filters.css'
 import { useFilters } from "../../../hooks/useFilters"
 import { products } from "../../../mocks/products.json"
 import iconArrowDown from '/src/icons/arrow-down.svg'
+import { IconArrowDown } from "../../Icons/Icons"
 export function Filters(){
   const minPriceFilterId = useId()
   const { filters, setFilters, resetFilters } = useFilters()
+  const [openFilters, setOpenFilters] = useState(false);
   const [isOpenBrand, setIsOpenBrand] = useState(false);
   const [isOpenCategory, setIsOpenCategory] = useState(false);
   const [isFilteredBy, setIsFilteredBy] = useState(false);
-
+  const HandleOpenFilters = () => {
+    setOpenFilters(!openFilters);
+  };
   const toggleBrandMenu = () => {
     setIsOpenBrand(!isOpenBrand);
   };
@@ -90,8 +94,10 @@ export function Filters(){
   return (
     <section className="filters-section">
       <section className="filters-header">
-        <h2 className="filters-title">Filtros</h2>
+        <h2 className="filters-title" onClick={HandleOpenFilters}>Filtrar por <span className="icon-filters"><IconArrowDown /></span></h2>
       </section>
+      {openFilters &&
+      <>
       <section className="filters-content">
         <div className="filters-types">
           <label htmlFor={minPriceFilterId}>Precio a partir de: </label>
@@ -211,6 +217,7 @@ export function Filters(){
           </>
         ) : ''}
       </section>
+      </>}
     </section>
   )
 }
