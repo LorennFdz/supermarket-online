@@ -29,14 +29,14 @@ export function BannerFrozen() {
 export function BannerHome() {
   return (
     <figure>
-      <img src="/img/gral/banner-home.png" alt="Banner Inicio" />
+      <img src="/img/gral/banner-home.webp" alt="Banner Inicio" />
     </figure>
   )
 }
 export function BannerProducts() {
   return (
     <figure>
-      <img src="/img/gral/banner-products.png" alt="Banner Productos" />
+      <img src="/img/gral/banner-products.webp" alt="Banner Productos" />
     </figure>
   )
 }

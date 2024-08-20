@@ -6,7 +6,7 @@ export function Profile() {
     <Navbar />
     <main className='container-profile'>
       <figure>
-        <img src="/img/gral/page-in-construction.jpg" alt="" />
+        <img src="/img/gral/page-in-construction.webp" alt="" />
       </figure>
     </main>
     <Footer />

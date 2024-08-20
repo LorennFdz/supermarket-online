@@ -6,7 +6,7 @@ export function Favorite() {
     <Navbar />
     <main className='container-favorite'>
       <figure>
-        <img src="/img/gral/page-in-construction.jpg" alt="" />
+        <img src="/img/gral/page-in-construction.webp" alt="" />
       </figure>
     </main>
     <Footer />

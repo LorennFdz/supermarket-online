@@ -6,7 +6,7 @@ export const Footer = () => {
       <section className='fat-footer'>
         <article className='img-logo-footer header-fat-footer'>
           <figure>
-            <img src="/img/gral/logo-footer.png" alt="Logo footer" />
+            <img src="/img/gral/logo-footer.webp" alt="Logo footer" />
           </figure>
         </article>
         <section className='container-content-fat-footer'>

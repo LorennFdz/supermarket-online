@@ -102,7 +102,7 @@ export function Home(){
         <Filters />
         <article className="publicity-home">
           <figure>
-            <img src="/img/gral/publicity-home.jpg" alt="" />
+            <img src="/img/gral/publicity-home.webp" alt="" />
           </figure>
           <figure>
             <img src="/img/gral/publicity-home-2.webp" alt="" />
