@@ -1,14 +1,12 @@
 import './footer.css'
 import { IconFacebook, IconInstagram, IconGithub, IconLinkedIn, IconVisa, IconMasterCard, IconAmericanExpress } from '../../Icons/Icons'
-import logoFooter from '/src/img/gral/logo-footer.png'
-import { Link } from 'react-router-dom'
 export const Footer = () => {
   return (
     <footer className='footer'>
       <section className='fat-footer'>
         <article className='img-logo-footer header-fat-footer'>
           <figure>
-            <img src={logoFooter} alt="" />
+            <img src="/img/gral/logo-footer.png" alt="" />
           </figure>
         </article>
         <section className='container-content-fat-footer'>

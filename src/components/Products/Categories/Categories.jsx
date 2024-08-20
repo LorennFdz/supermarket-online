@@ -20,7 +20,7 @@ export function Foods() {
     <>
     <section className="category-drinks">
       <section className="publicity-drinks">
-        <img src={imgFoodsPublicity} alt="" />
+        <img src="/img/products/publicity/foods-recorted.jpg" alt="" />
       </section>
       <section className="products-page">
         <article className="header-products-page">
@@ -46,7 +46,7 @@ export function Foods() {
         </ul>
       </section>
       <section className="publicity-drinks">
-        <img src={imgFoodsPublicity2} alt="" />
+        <img src="/img/products/publicity/foods-2-recorted.jpg" alt="" />
       </section>
     </section>
     </>
@@ -62,7 +62,7 @@ export function Drinks() {
     <>
     <section className="category-drinks">
       <section className="publicity-drinks">
-        <img src={imgDrinksPublicity} alt="" />
+        <img src="/img/products/publicity/coke-cola-recorted.jpg" alt="" />
       </section>
       <section className="products-page">
         <article className="header-products-page">
@@ -88,7 +88,7 @@ export function Drinks() {
         </ul>
       </section>
       <section className="publicity-drinks">
-        <img src={imgDrinksPublicity2} alt="" />
+        <img src="/img/products/publicity/corona-recorted.jpg" alt="" />
       </section>
     </section>
     </>
@@ -105,7 +105,7 @@ export function Frozen() {
     <>
     <section className="category-drinks">
       <section className="publicity-drinks">
-        <img src={imgFrozenPublicity} alt="" />
+        <img src="/img/products/publicity/frozen-recorted.jpg" alt="" />
       </section>
       <section className="products-page">
         <article className="header-products-page">
@@ -131,7 +131,7 @@ export function Frozen() {
         </ul>
       </section>
       <section className="publicity-drinks">
-        <img src={imgFrozenPublicity2} alt="" />
+        <img src="/img/products/publicity/frozen-2-recorted.jfif" alt="" />
       </section>
     </section>
     </>

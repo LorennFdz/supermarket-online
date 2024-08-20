@@ -1,48 +1,42 @@
-import imgBannerCart from '/src/img/cart/banner-cart.png'
-import imgBannerDrinks from '/src/img/products/banner-bebidas.webp'
-import imgBannerFoods from '/src/img/products/banner-almacen.webp'
-import imgBannerFrozen from '/src/img/products/banner-frozen.webp'
-import imgBannerHome from '/src/img/gral/banner-nuevo.png'
-import imgBannerProducts from '/src/img/gral/banner-products.png'
 export function BannerCart() {
   return (
     <figure>
-      <img src={imgBannerCart} alt="" />
+      <img src="/img/cart/banner-cart.png" alt="" />
     </figure>
   )
 }
 export function BannerDrinks() {
   return (
     <figure>
-      <img src={imgBannerDrinks} alt="" />
+      <img src="/img/products/banner-bebidas.webp" alt="" />
     </figure>
   )
 }
 export function BannerFoods() {
   return (
     <figure>
-      <img src={imgBannerFoods} alt="" />
+      <img src="img/products/banner-almacen.webp" alt="" />
     </figure>
   )
 }
 export function BannerFrozen() {
   return (
     <figure>
-      <img src={imgBannerFrozen} alt="" />
+      <img src="/img/products/banner-frozen.webp" alt="" />
     </figure>
   )
 }
 export function BannerHome() {
   return (
     <figure>
-      <img src={imgBannerHome} alt="" />
+      <img src="/img/gral/banner-nuevo.png" alt="" />
     </figure>
   )
 }
 export function BannerProducts() {
   return (
     <figure>
-      <img src={imgBannerProducts} alt="" />
+      <img src="/img/gral/banner-products.png" alt="" />
     </figure>
   )
 }
