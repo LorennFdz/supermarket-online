@@ -27,7 +27,10 @@ export function ProductItem({image, title, description, price, isProductFavorite
         <h3>{title}</h3>
       </article>
       <article className="btns-product">
-        <button className={ isProductFavorite ? "btn-heart-product enable" : "btn-heart-product"}>
+        <button
+          title='Agregar a favoritos' 
+          className={ isProductFavorite ? "btn-heart-product enable" : "btn-heart-product"}
+        >
           { isProductFavorite
             ? <IconFillHeartFavorite />
             : <IconHeartFavorite />
@@ -35,6 +38,7 @@ export function ProductItem({image, title, description, price, isProductFavorite
           
         </button>
         <button
+          title='Agregar al carrito'
           className="btn-addToCart"
           onClick={(isProductInCart ? removeFromCart : addToCart)}
         >
@@ -92,6 +96,7 @@ export function Product ({ products }) {
       {quantityPages > 1 && (
         <article className="pagination">
         <button
+          title='Página anterior'
           className={currentPage === 1 ? "btn-pagination disable" : "btn-pagination"}
           disabled={currentPage === 1}
           onClick={() => {
@@ -104,6 +109,7 @@ export function Product ({ products }) {
           </figure>
         </button>
         <input
+          title='Página actual'
           type="text"
           className="input-pagination"
           id="input-pagination"
@@ -112,6 +118,7 @@ export function Product ({ products }) {
           readOnly
         />
         <button
+          title='Página siguiente'
           className={currentPage === quantityPages ? "btn-pagination disable" : "btn-pagination"}
           disabled={currentPage === quantityPages}
           onClick={() => {

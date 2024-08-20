@@ -95,12 +95,12 @@ export function ModalCart({ openModalCart, handleModalCart }) {
         <footer className='footer-cart'>
           <h3>Total: {totalCart}</h3>
           <section className='buttons-footer'>
-            <button className='empty-cart' onClick={() => clearCart()}>Vaciar Carrito</button>
+            <button title='Vaciar carrito' className='empty-cart' onClick={() => clearCart()}>Vaciar Carrito</button>
             <button
               className='buy-cart'
               disabled={cart.length === 0 ? true : false}
             >
-              <Link to={"/cart"} className='finished-buy-anchor'>
+              <Link to={"/cart"} className='finished-buy-anchor' title='Finalizar Compra'>
                  Finalizar Compra
               </Link>
             </button>

@@ -138,7 +138,7 @@ export function Navbar() {
       </article>
       <ul>
         <Link to={"/"}>
-          <li>
+          <li title='Inicio'>
             <figure className='icons-navbar'>
               <IconHome />
             </figure>
@@ -146,7 +146,7 @@ export function Navbar() {
           </li>
         </Link>
         <Link to={"/products"}>
-          <li>
+          <li title='Productos'>
             <figure className='icons-navbar'>
               <IconProducts />
             </figure>
@@ -154,7 +154,7 @@ export function Navbar() {
           </li>
         </Link>
         <Link to={"/favorites"}>
-          <li>
+          <li title='Favoritos'>
             <figure className='icons-navbar'>
               <IconHeart />
             </figure>
@@ -162,14 +162,14 @@ export function Navbar() {
           </li>
         </Link>
         <Link to={"/profile"}>
-          <li>
+          <li title='Mi cuenta'>
             <figure className='icons-navbar'>
               <IconProfileCircled />
             </figure>
             <span>Mi cuenta</span>
           </li>
         </Link>
-        <li onClick={handleModalCart}>
+        <li title='Carrito' onClick={handleModalCart}>
             <figure className='icons-navbar'>
               <IconShoppingCart />
             </figure>

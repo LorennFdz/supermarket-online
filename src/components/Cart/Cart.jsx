@@ -54,7 +54,7 @@ export function Cart(){
           <strong>{totalCart}</strong>
         </article>
       </section>
-      <button className='btn-buy-cart'>
+      <button className='btn-buy-cart' title='Comprar'>
         Comprar
       </button>
     </>}

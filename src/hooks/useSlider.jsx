@@ -11,6 +11,7 @@ export function useSlider(categories) {
   const btnLeft = () => {
     return (
       <button
+        title='Anterior'
         className={'prev-button ' + (currentIndex === 1 ? 'disabled' : '')}
         disabled={currentIndex === 1}
         onClick={() => setCurrentIndex(currentIndex - 1)}
@@ -24,6 +25,7 @@ export function useSlider(categories) {
   const btnRight = () => {
     return (
       <button
+        title='Siguiente'
         className={'next-button ' + (currentIndex === quantityPages ? "disabled" : '')}
         disabled={currentIndex === quantityPages}
         onClick={() => {
