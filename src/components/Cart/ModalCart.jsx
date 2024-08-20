@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 import './modal-cart.css'
 import { useCart } from '../../hooks/useCart'
 import { IconCloseModalCart, IconEmptyCart, IconTrash } from '../Icons/Icons'
-import iconMyCart from '/src/icons/my-cart.svg'
+import iconMyCart from '/icons/my-cart.svg'
 
 export function ModalCartItem({ image, title, brand, price, quantity, subtractQuantity, addToCart, removeFromCart }) {
   return (
@@ -53,7 +53,7 @@ export function ModalCart({ openModalCart, handleModalCart }) {
       <header className='header-cart'>
         <section className='my-cart'>
           <figure>
-            <img src={iconMyCart} alt="" />
+            <img src={iconMyCart} alt="icon-my-cart" />
           </figure>
           <h1>Mi Carrito</h1>
         </section>

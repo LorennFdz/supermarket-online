@@ -7,7 +7,7 @@ import { Footer } from "../Gral/Footer/Footer.jsx";
 import { BannerHome } from "../Gral/Banners/Banners.jsx";
 import { Breadcrumbs } from "../Gral/Breadcrumbs/Breadcrumbs.jsx";
 import { usePagination } from "../../hooks/usePagination.js";
-import { useState, useEffect, useRef } from "react"
+import { useState, useEffect } from "react"
 import { SortSelect } from "../Gral/Sort/SortSelect.jsx"
 import { useSort } from "../../hooks/useSort.js"
 import { useSearch } from "../../hooks/useSearch.js"

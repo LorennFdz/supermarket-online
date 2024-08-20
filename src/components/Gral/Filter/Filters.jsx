@@ -2,7 +2,7 @@ import { useId, useState } from "react"
 import './filters.css'
 import { useFilters } from "../../../hooks/useFilters"
 import { products } from "../../../mocks/products.json"
-import iconArrowDown from '/src/icons/arrow-down.svg'
+import iconArrowDown from '/icons/arrow-down.svg'
 import { IconArrowDown } from "../../Icons/Icons"
 export function Filters(){
   const minPriceFilterId = useId()
@@ -112,7 +112,7 @@ export function Filters(){
             className="filters-btn"
           >
             Marca
-            <img src={iconArrowDown} alt="" />
+            <img src={iconArrowDown} alt="icon-arrow-down" />
           </button>
             {isOpenBrand && (
               <ul className="list-filters">
@@ -140,7 +140,7 @@ export function Filters(){
             className="filters-btn"
           >
             Categoría
-            <img src={iconArrowDown} alt="" />
+            <img src={iconArrowDown} alt="icon-arrow-down" />
           </button>
           {isOpenCategory && (
             <ul className="list-filters">
@@ -173,7 +173,7 @@ export function Filters(){
           >
             <article className="filters-btn">
               Filtrado por:
-              <img src={iconArrowDown} alt="" />
+              <img src={iconArrowDown} alt="icon-arrow-down" />
             </article>
             {isFilteredBy && (
               <>

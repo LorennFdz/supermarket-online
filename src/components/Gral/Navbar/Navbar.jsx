@@ -4,7 +4,7 @@ import './navbar.css';
 import { Input } from '../InputSearch/Input';
 import { ModalCart } from '../../Cart/ModalCart';
 import { useCart } from '../../../hooks/useCart'
-import { IconHeart, IconHome, IconShoppingCart, IconProducts, IconProfileCircled, IconMenu, IconCloseModalCart, IconClose, IconFilters, IconSearch, IconTrash } from '../../Icons/Icons';
+import { IconHeart, IconHome, IconShoppingCart, IconProducts, IconProfileCircled, IconMenu, IconClose, IconSearch, IconTrash } from '../../Icons/Icons';
 import { useSearch } from '../../../hooks/useSearch';
 export function Navbar() {
   const { cart } = useCart()

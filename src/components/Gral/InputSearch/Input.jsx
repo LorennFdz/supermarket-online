@@ -1,7 +1,7 @@
 import './input.css'
 import { useId } from "react"
 import { useSearch } from '../../../hooks/useSearch'
-import iconSearch from '/src/icons/search.svg'
+import iconSearch from '/icons/search.svg'
 export function Input({type = 'text', placeholder = '¡Hola!, ¿Qué estás buscando?'}){
   const inputId = useId();
   const { handleSubmit } = useSearch(); 

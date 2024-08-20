@@ -45,9 +45,11 @@ export function IconArrowRight() {
   )
 }
 export function IconArrowDown() {
-  return(<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16" color="#0970e6" fill="none">
-    <path d="M18 9.00005C18 9.00005 13.5811 15 12 15C10.4188 15 6 9 6 9" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
-  </svg>)
+  return(
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16" color="#0970e6" fill="none">
+      <path d="M18 9.00005C18 9.00005 13.5811 15 12 15C10.4188 15 6 9 6 9" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+    </svg>
+  )
 }
 export function IconArrowSort(){
   return (<svg width="24px" height="24px" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" color="#000000"><path d="M6 9L12 15L18 9" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
@@ -90,7 +92,6 @@ export function IconCloseModalCart() {
     </svg>
   )
 }
-
 export function IconEmptyCart() {
   return (
     <svg width="139" height="136" viewBox="0 0 139 136" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -274,7 +275,7 @@ export function IconMenu() {
 export function IconMyCart() {
   return (
     <svg width="123" height="112" viewBox="0 0 123 112" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M35.4775 17.124H117.24L106.116 56.058H41.4675M111.678 78.306H44.934L33.81 6H17.124M17.124 33.81H6M22.686 50.496H6M28.248 67.182H6M50.496 100.554C50.496 103.626 48.0058 106.116 44.934 106.116C41.8622 106.116 39.372 103.626 39.372 100.554C39.372 97.4821 41.8622 94.992 44.934 94.992C48.0058 94.992 50.496 97.4821 50.496 100.554ZM111.678 100.554C111.678 103.626 109.188 106.116 106.116 106.116C103.044 106.116 100.554 103.626 100.554 100.554C100.554 97.4821 103.044 94.992 106.116 94.992C109.188 94.992 111.678 97.4821 111.678 100.554Z" stroke="#2088E2" strokeWidth="11.124" strokeLinecap="round" strokeLinejoin="round"/>
+      <path d="M35.4775 17.124H117.24L106.116 56.058H41.4675M111.678 78.306H44.934L33.81 6H17.124M17.124 33.81H6M22.686 50.496H6M28.248 67.182H6M50.496 100.554C50.496 103.626 48.0058 106.116 44.934 106.116C41.8622 106.116 39.372 103.626 39.372 100.554C39.372 97.4821 41.8622 94.992 44.934 94.992C48.0058 94.992 50.496 97.4821 50.496 100.554ZM111.678 100.554C111.678 103.626 109.188 106.116 106.116 106.116C103.044 106.116 100.554 103.626 100.554 100.554C100.554 97.4821 103.044 94.992 106.116 94.992C109.188 94.992 111.678 97.4821 111.678 100.554Z" stroke="#2088E2" stroke-width="11.124" stroke-linecap="round" stroke-linejoin="round"/>
     </svg>
   )
 }
@@ -364,7 +365,7 @@ export function IconProfileCircled() {
 export function IconSearch() {
   return (
     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M10 4a6 6 0 1 0 0 12 6 6 0 0 0 0-12zm-8 6a8 8 0 1 1 14.32 4.906l5.387 5.387a1 1 0 0 1-1.414 1.414l-5.387-5.387A8 8 0 0 1 2 10z" fill="#E1A63B"/>
+      <path d="M10 4a6 6 0 1 0 0 12 6 6 0 0 0 0-12zm-8 6a8 8 0 1 1 14.32 4.906l5.387 5.387a1 1 0 0 1-1.414 1.414l-5.387-5.387A8 8 0 0 1 2 10z" fill="#FFF"/>
     </svg>
   )
 }

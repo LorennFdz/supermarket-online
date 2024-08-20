@@ -1,4 +1,4 @@
-import { IconArrowDown, IconArrowSort } from '../../Icons/Icons';
+import { IconArrowDown } from '../../Icons/Icons';
 import './sortSelect.css'
 import { useState } from 'react';
 export function SortSelect({ handleSortChange, itemSelected }) {

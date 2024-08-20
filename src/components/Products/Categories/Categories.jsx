@@ -5,12 +5,6 @@ import { ProductItem } from "../../Gral/Product/Product"
 import './categories.css'
 import { useSlider } from "../../../hooks/useSlider"
 import { QuantityProducts } from "../../Gral/QuantityProducts/QuantityProducts"
-import imgFoodsPublicity from '/src/img/products/publicity/foods-recorted.jpg'
-import imgFoodsPublicity2 from '/src/img/products/publicity/foods-2-recorted.jpg'
-import imgDrinksPublicity from '/src/img/products/publicity/coke-cola-recorted.jpg'
-import imgDrinksPublicity2 from '/src/img/products/publicity/corona-recorted.jpg'
-import imgFrozenPublicity from '/src/img/products/publicity/frozen-recorted.jpg'
-import imgFrozenPublicity2 from '/src/img/products/publicity/frozen-2-recorted.jfif'
 export function Foods() {
   const categoryFoods = products.filter((prod) => prod.category === 'Almacen')
 
