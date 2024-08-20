@@ -40,12 +40,12 @@ export const Footer = () => {
                 <figure className='icon-follow-networks-footer'>
                   <IconInstagram />
                 </figure>
-                <a href="https://github.com/LorennFdz" target='_blank'>
+                <a href="https://github.com/LorennFdz" target='_blank' title='Git Hub'>
                   <figure className='icon-follow-networks-footer'>
                     <IconGithub />
                   </figure>
                 </a>
-                <a href="https://www.linkedin.com/in/lorenzofdz08/" target='_blank'>
+                <a href="https://www.linkedin.com/in/lorenzofdz08/" target='_blank' title='LinkedIn'>
                   <figure className='icon-follow-networks-footer'>
                     <IconLinkedIn />
                   </figure>
