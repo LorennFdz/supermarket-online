@@ -11,7 +11,7 @@ export function useSearch() {
 }
 
 
-// esta es la mejor forma ya que obtenemos todos los inputs del formulario
+    // esta es la mejor forma ya que obtenemos todos los inputs del formulario
     // podría llamar solo a search y me traería todos los resultados de los inputs (que tuviese)
     // ó llamarlo entre llaves para que reconozca directamente el name del input en particular
     

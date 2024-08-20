@@ -4,7 +4,7 @@ import { IconArrowLeft, IconArrowRight } from "../components/Icons/Icons";
 export function useSlider(categories) {
   const innerWidth = window.innerWidth;
   const [currentIndex, setCurrentIndex] = useState(1);
-  const [slidesPerPage, setSlidesPerPage] = useState(innerWidth < 430 ? 4 : innerWidth < 1024 ? 8 : 10); 
+  const [slidesPerPage, setSlidesPerPage] = useState(innerWidth < 430 ? 4 : innerWidth < 1440 ? 8 : 10); 
   const startIndex = ((currentIndex - 1) * slidesPerPage)
   const endIndex = (startIndex + slidesPerPage);
   const quantityPages = Math.ceil(categories.length / slidesPerPage);

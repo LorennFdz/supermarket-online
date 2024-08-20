@@ -1,4 +1,4 @@
-import { useState, useRef } from "react"
+import { useState, useRef, useEffect } from "react"
 import "./product.css"
 import { useCart } from "../../../hooks/useCart";
 import { IconArrowCircleLeft, IconArrowCircleRight, IconFillHeartFavorite, IconHeartFavorite, IconMyCart2, IconMyCartProduct } from "../../Icons/Icons";
@@ -55,21 +55,24 @@ export function ProductItem({image, title, description, price, isProductFavorite
 
 export function Product ({ products }) {
   const { filteredProducts } = products;
-  // este useEffect se utiliza para actualizar los productos a mostrar
-  // cuando se utiliza el ordenamiento y el filtrado
-  const [productsByPage, setProductsByPage] = useState(10)
-  const {currentPage, setCurrentPage } = usePagination();
-  const startIndex = ((currentPage - 1) * productsByPage)
-  const endIndex = (startIndex + productsByPage);
+  const innerWidth = window.innerWidth;
+  const [productsByPage, setProductsByPage] = useState(innerWidth < 430 ? 4 : innerWidth < 1440 ? 8 : 10)
+  const { currentPage, setCurrentPage } = usePagination();
+  let startIndex = ((currentPage - 1) * productsByPage)
+  let endIndex = (startIndex + productsByPage);
+  // este useEffect lo uso para actualizar la página actual para mostrar los productos
+  // desde la página 1 cuando se filtran ó se buscan en el input search.
+  useEffect(() => {
+    setCurrentPage(1);
+  }, [filteredProducts]);
   const quantityPages = Math.ceil(filteredProducts.length / productsByPage);
   const productsContainerRef = useRef(null);
   const { addToCart, removeFromCart } = useCart();
-  
   return (<>
-  <section className="hidden" ref={productsContainerRef}></section>
+    <section className="hidden" ref={productsContainerRef}></section>
     <section className="products">
       <ul className="products-list">
-        {/* slice para solo mostrar unos 15 products en vez de todos. */}
+        {/* slice para solo mostrar unos 10 products en vez de todos. */}
         {filteredProducts.slice(startIndex, endIndex).map(product => {
           const isProductInCart = checkProductInCart(product)
           const isProductFavorite = checkProductFavorite(product)

@@ -30,6 +30,7 @@
     align-items: center;
     position: relative;
     padding: 10px 0;
+    margin-right: 10%;
   }
   .order-by .text-order-by .icon-sort {
     width: 20px;
@@ -48,46 +49,23 @@
     width: max-content;
     padding: 5px;
     top: 16%;
-    right: -8px;
+    right: -45%;
     z-index: 1;
   }
   .order-by .ul-order-by .order-by-item {
     cursor: pointer;
   }
-
-  /*.order-by {
-    width: max-content;
-    background-color: red;
-    display: flex;
-    position: relative;
-  }
-  .order-by .text-order-by {
-    display: block;
-    font-size: 14px;
-    width: max-content;
-    border: 0.0625rem solid #dbdbdb;
-    padding: 10px;
-    background: blue;
-    position: absolute;
-    top: 0;
+}
+@media screen and (min-width: 1279px) {
+  .order-by {
+    margin-right: 0;
   }
   .order-by .ul-order-by {
     position: absolute;
-    top: 0;
-    right: 0;
-    z-index: 1;
-    color: #929292;
-    padding: 10px;
     width: max-content;
-    font-size: 14px;
-    border: 0.0625rem solid #dbdbdb;
-    outline: none;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-end;
-    gap: 20px;
-    background-color: yellow;
-    list-style: none;
-  }*/
+    padding: 5px;
+    top: 16%;
+    right: -8px;
+    z-index: 1;
+  }
 }

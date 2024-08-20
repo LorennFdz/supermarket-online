@@ -1,6 +1,7 @@
 import './footer.css'
 import { IconFacebook, IconInstagram, IconGithub, IconLinkedIn, IconVisa, IconMasterCard, IconAmericanExpress } from '../../Icons/Icons'
 import logoFooter from '/src/img/gral/logo-footer.png'
+import { Link } from 'react-router-dom'
 export const Footer = () => {
   return (
     <footer className='footer'>
@@ -24,7 +25,7 @@ export const Footer = () => {
               </ul>
             </article>
             <article>
-              <h3>CONTACTO:</h3>
+              <h3>CONTACTO</h3>
               <article className='contact-footer'>
                 <strong>Loreenfernandez.14@gmail.com</strong>
                 <strong>Tandil, Bs As Argentina.</strong>
@@ -33,7 +34,7 @@ export const Footer = () => {
           </section>
           <section className='networks-payment-footer'>
             <article>
-              <h3>SEGUINOS EN NUESTRAS REDES:</h3>
+              <h3>SEGUINOS EN NUESTRAS REDES</h3>
               <article className='btns-follow-networks-footer'>
                 <figure className='icon-follow-networks-footer'>
                   <IconFacebook />
@@ -41,12 +42,16 @@ export const Footer = () => {
                 <figure className='icon-follow-networks-footer'>
                   <IconInstagram />
                 </figure>
-                <figure className='icon-follow-networks-footer'>
-                  <IconGithub />
-                </figure>
-                <figure className='icon-follow-networks-footer'>
-                  <IconLinkedIn />
-                </figure>
+                <a href="https://github.com/LorennFdz" target='_blank'>
+                  <figure className='icon-follow-networks-footer'>
+                    <IconGithub />
+                  </figure>
+                </a>
+                <a href="https://www.linkedin.com/in/lorenzofdz08/" target='_blank'>
+                  <figure className='icon-follow-networks-footer'>
+                    <IconLinkedIn />
+                  </figure>
+                </a>
               </article>
             </article>
             <article>
@@ -69,6 +74,9 @@ export const Footer = () => {
       <section className='fit-footer'>
         <article>
           <span>© 2024 Supermarket Online. Todos los derechos reservados.</span>
+        </article>
+        <article>
+          <strong>Desarrollado por Lorenzo Fernández</strong>
         </article>
       </section>
     </footer>

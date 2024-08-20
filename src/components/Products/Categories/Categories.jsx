@@ -15,11 +15,7 @@ export function Foods() {
   const categoryFoods = products.filter((prod) => prod.category === 'Almacen')
 
   const { addToCart, removeFromCart } = useCart();
-  const { startIndex, endIndex, btnLeft, btnRight, setSlidesPerPage } = useSlider(categoryFoods)
-  //console.log(quantityPages);
-  //if (currentIndex === products.length - slidesPerPage) {
-  //  setCurrentIndex(1);
-  //}
+  const { startIndex, endIndex, btnLeft, btnRight } = useSlider(categoryFoods)
   return (
     <>
     <section className="category-drinks">
@@ -31,20 +27,6 @@ export function Foods() {
           <QuantityProducts array={categoryFoods} text="productos" />
         </article>
         <ul className="products-list slider-items">
-          {/*categoryFoods.map(product => {
-            const isProductInCart = checkProductInCart(product)
-            const isProductFavorite = checkProductFavorite(product)
-            return (
-              <ProductItem 
-                key={product.id}
-                isProductFavorite={isProductFavorite}
-                isProductInCart={isProductInCart}
-                addToCart={() => addToCart(product)}
-                removeFromCart={() => removeFromCart(product)}
-                {... product}
-              />
-            )
-          })*/}
           {categoryFoods.slice(startIndex, endIndex).map(product => {
             const isProductInCart = checkProductInCart(product)
             const isProductFavorite = checkProductFavorite(product)

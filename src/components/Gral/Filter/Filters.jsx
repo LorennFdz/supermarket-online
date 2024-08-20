@@ -7,7 +7,6 @@ import { IconArrowDown } from "../../Icons/Icons"
 export function Filters(){
   const minPriceFilterId = useId()
   const { filters, setFilters, resetFilters } = useFilters()
-  //const [openFilters, setOpenFilters] = useState(false);
   const [isOpenBrand, setIsOpenBrand] = useState(false);
   const [isOpenCategory, setIsOpenCategory] = useState(false);
   const [isFilteredBy, setIsFilteredBy] = useState(false);

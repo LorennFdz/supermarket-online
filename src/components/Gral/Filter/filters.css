@@ -133,13 +133,13 @@
   }
   .filters-header .filters-title {
     display: flex;
-    cursor: pointer;
+    /*cursor: pointer;*/
     padding: 20px 0;
     font-size: 16px;
     font-weight: 300;
     width: max-content;
     padding: 10px 5px;
-    border: 0.0625rem solid #dbdbdb;
+    /*border: 0.0625rem solid #dbdbdb;*/
   }
   .filters-header .filters-title .icon-filters {
     width: 20px;
