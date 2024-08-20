@@ -62,12 +62,6 @@
   .products-page .header-products-page {
     padding: 0 10px;
   }
-  .products-page .header-products-page span {
-    font-size: .875rem;
-    font-weight: 300;
-    line-height: 2.5rem;
-    color: #929292;
-  }
   .slider-items {
     overflow: hidden;
   }
