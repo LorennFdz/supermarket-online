@@ -29,7 +29,7 @@ export function BannerFrozen() {
 export function BannerHome() {
   return (
     <figure>
-      <img src="/img/gral/banner-nuevo.png" alt="" />
+      <img src="/img/gral/banner-home.png" alt="" />
     </figure>
   )
 }
