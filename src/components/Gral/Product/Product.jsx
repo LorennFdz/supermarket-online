@@ -4,11 +4,11 @@ import { useCart } from "../../../hooks/useCart";
 import { IconArrowCircleLeft, IconArrowCircleRight, IconFillHeartFavorite, IconHeartFavorite, IconMyCart2, IconMyCartProduct } from "../../Icons/Icons";
 import { usePagination } from "../../../hooks/usePagination";
 
-export const checkProductInCart = (product) => {
+export function checkProductInCart(product) {
   const { cart } = useCart();
   return cart.some(item => item.id === product.id)
 }
-export const checkProductFavorite = (product) => {
+export function checkProductFavorite(product) {
   // const { favorite } = useFavorite();
   
   //return favorite.some(item => item.id === product.id)

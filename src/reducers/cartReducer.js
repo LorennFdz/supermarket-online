@@ -9,12 +9,12 @@ export const CART_ACTIONS_TYPES = {
 }
 
 // actualizar el local storage con el estado del carrito.
-export const updateLocalStorage = (state) => {
+export function updateLocalStorage(state) {
   window.localStorage.setItem('cart', JSON.stringify(state))
 } 
 
 // reducer recibe un estado y una accion a realizar
-export const cartReducer = (state, action) => {
+export function cartReducer(state, action) {
   // type sería el string para identificar la acción a realizar y el payload es todo el objeto
   // que necesitamos para actualizar el estado.
   // en el payload vamos a tener el producto que vamos a añadir, por lo tanto tenemos todas sus caracteristicas.

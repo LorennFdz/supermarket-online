@@ -1,6 +1,6 @@
 import './footer.css'
 import { IconFacebook, IconInstagram, IconGithub, IconLinkedIn, IconVisa, IconMasterCard, IconAmericanExpress } from '../../Icons/Icons'
-export const Footer = () => {
+export function Footer() {
   return (
     <footer className='footer'>
       <section className='fat-footer'>
