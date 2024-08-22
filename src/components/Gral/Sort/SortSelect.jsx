@@ -1,13 +1,21 @@
 import { IconArrowDown } from '../../Icons/Icons';
 import './sortSelect.css'
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 export function SortSelect({ handleSortChange, itemSelected }) {
   const [openSort, setOpenSort] = useState(false);
-  const innerWidth = window.innerWidth;
+  const [innerWidth, setInnerWidth] = useState(window.innerWidth);
   const handleSort = () => {
     setOpenSort(!openSort);
   }
-
+  // este useEffect lo uso para actualizar el ancho de la página cuando lo abro desde
+  // el navegador y pongo inspeccionar para que no se me rompa ahí y siempre este
+  // actualizado el valor sin tener que actualizar la página
+  useEffect(() => {
+    const handleResize = () => {
+      setInnerWidth(window.innerWidth);
+    };
+    window.addEventListener('resize', handleResize);
+  }, [window.innerWidth]);
   return (
     <section className="order-by">
       <strong className="text-order-by" onClick={handleSort}>Ordenar por <span className='icon-sort'><IconArrowDown/></span></strong>

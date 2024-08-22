@@ -14,6 +14,9 @@ export function SearchProvider({ children }) {
   const handleResetSearch = () => {
     setSearch('');
   };
+  const handleInputChange = (event) => {
+    setSearch(event.target.value.toLowerCase()); // Convierte a minúsculas para búsqueda insensible a mayúsculas-minúsculas
+  }; 
   const searchProducts = !search ? [] : products.filter((prod) => {
     return prod.title.toLowerCase().includes(search.toLowerCase())
   })
@@ -21,6 +24,8 @@ export function SearchProvider({ children }) {
   return <SearchContext.Provider value={{
       search,
       handleSubmit,
+      setSearch,
+      handleInputChange,
       handleResetSearch,
       searchProducts
     }}

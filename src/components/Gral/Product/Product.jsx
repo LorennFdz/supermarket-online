@@ -59,16 +59,23 @@ export function ProductItem({image, title, description, price, isProductFavorite
 
 export function Product ({ products }) {
   const { filteredProducts } = products;
-  const innerWidth = window.innerWidth;
-  const [productsByPage, setProductsByPage] = useState(innerWidth < 430 ? 4 : innerWidth < 1440 ? 8 : 10)
+  const [innerWidth, setInnerWidth] = useState(window.innerWidth);
+  const [productsByPage, setProductsByPage] = useState(innerWidth < 500 ? 4 : innerWidth < 1439 ? 8 : 10)
   const { currentPage, setCurrentPage } = usePagination();
   let startIndex = ((currentPage - 1) * productsByPage)
   let endIndex = (startIndex + productsByPage);
-  // este useEffect lo uso para actualizar la página actual para mostrar los productos
-  // desde la página 1 cuando se filtran ó se buscan en el input search.
+  // este useEffect lo uso para actualizar el ancho de la página y también actualizar
+  // la página actual para mostrar los productos desde la página 1 cuando se filtran
+  // ó se buscan en el input search.
   useEffect(() => {
+    const handleResize = () => {
+      setInnerWidth(window.innerWidth);
+      setProductsByPage(innerWidth < 500 ? 4 : innerWidth < 1439 ? 8 : 10)
+    };
+    window.addEventListener('resize', handleResize);
+    
     setCurrentPage(1);
-  }, [filteredProducts]);
+  }, [filteredProducts, window.innerWidth]);
   const quantityPages = Math.ceil(filteredProducts.length / productsByPage);
   const productsContainerRef = useRef(null);
   const { addToCart, removeFromCart } = useCart();

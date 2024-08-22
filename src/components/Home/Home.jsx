@@ -15,7 +15,7 @@ import { QuantityProducts } from "../Gral/QuantityProducts/QuantityProducts";
 import { IconClose, IconFilters, IconOrderBy } from "../Icons/Icons.jsx";
 export function Home(){
   const { loading, error, products } = usePagination();
-  const innerWidth = window.innerWidth;
+  const [innerWidth, setInnerWidth] = useState(window.innerWidth);
   const [newProducts, setNewProducts] = useState({
     filteredProducts: loading ? [] : products
   })
@@ -24,6 +24,7 @@ export function Home(){
   const [orderBy, setOrderBy] = useState('');
   const [openOrderBy, setOpenOrderBy] = useState(false);
   const [openFilters, setOpenFilters] = useState(false);
+  
   const handleSortChange = (event) => {
     const orderBy = event.target;
     setOrderBy(orderBy.getAttribute('value'));
@@ -38,7 +39,16 @@ export function Home(){
       setOpenOrderBy(!openOrderBy)
     setOpenFilters(!openFilters);
   }
+  // ENTRE OTRAS COSAS...
+  // este useEffect lo uso para actualizar el ancho de la página cuando lo abro desde
+  // el navegador y pongo inspeccionar para que no se me rompa ahí y siempre este
+  // actualizado el valor sin tener que actualizar la página
   useEffect(() => {
+    const handleResize = () => {
+      setInnerWidth(window.innerWidth);
+    };
+    window.addEventListener('resize', handleResize);
+
     const filterPrueba = searchProducts.length > 0 ? filterProducts(searchProducts) : filterProducts(products)
     // Si la variable filterPrueba es falsa o vacía(!filterPrueba):
     // Significa que no hay resultados de búsqueda o que se produjo un error al filtrar.
@@ -54,7 +64,7 @@ export function Home(){
       filteredProducts: !filterPrueba ? filterProducts(products) : filterProducts(useSort(filterPrueba, orderBy)),
     }))
     //setCurrentPage(1);    
-  }, [loading, filters, search, orderBy])
+  }, [loading, filters, search, orderBy, window.innerWidth])
   return (
     <>
     <Navbar />

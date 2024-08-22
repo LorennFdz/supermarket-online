@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import './navbar.css';
 import { Input } from '../InputSearch/Input';
 import { ModalCart } from '../../Cart/ModalCart';
@@ -8,7 +8,7 @@ import { IconHeart, IconHome, IconShoppingCart, IconProducts, IconProfileCircled
 import { useSearch } from '../../../hooks/useSearch';
 export function Navbar() {
   const { cart } = useCart()
-  const innerWidth = window.innerWidth;
+  const [innerWidth, setInnerWidth] = useState(window.innerWidth);
   const [openMenu, setMenu] = useState(false)
   const [openModalCart, setModalCart] = useState(false)
   const [openInputSearch, setInputSearch] = useState(false);
@@ -34,6 +34,16 @@ export function Navbar() {
       setInputSearch(!openInputSearch)
     setModalCart(!openModalCart)
   }
+  // este useEffect lo uso para actualizar el ancho de la página cuando lo abro desde
+  // el navegador y pongo inspeccionar para que no se me rompa ahí y siempre este
+  // actualizado el valor sin tener que actualizar la página
+  useEffect(() => {
+    const handleResize = () => {
+      setInnerWidth(window.innerWidth);
+    };
+
+    window.addEventListener('resize', handleResize);
+  }, [window.innerWidth]);
   return (
     <>
     <header className='header-home'>
