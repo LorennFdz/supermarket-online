@@ -15,7 +15,7 @@ Este proyecto consiste en una plataforma de comercio electrónico integral, dise
 * **Estilos:** CSS3.
 * **Herramientas:** Git para control de versiones y Vercel para el despliegue continuo.
 
-## ⚙️ Próximos Pasos (Roadmap)
+## ⚙️ Próximos Pasos
 
 Como parte de mi proceso de mejora continua, este proyecto está evolucionando hacia:
 1. **Migración a Backend:** Implementación de una API robusta con **Java y Spring Boot**.
