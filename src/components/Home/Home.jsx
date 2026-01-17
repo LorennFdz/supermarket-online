@@ -44,10 +44,13 @@ export function Home(){
   // el navegador y pongo inspeccionar para que no se me rompa ahí y siempre este
   // actualizado el valor sin tener que actualizar la página
   useEffect(() => {
-    const handleResize = () => {
-      setInnerWidth(window.innerWidth);
-    };
+    const handleResize = () => setInnerWidth(window.innerWidth);
     window.addEventListener('resize', handleResize);
+
+    return () => window.removeEventListener('resize', handleResize);
+
+  }, []);
+  useEffect(() => {
 
     const filterPrueba = searchProducts.length > 0 ? filterProducts(searchProducts) : filterProducts(products)
     // Si la variable filterPrueba es falsa o vacía(!filterPrueba):
@@ -64,7 +67,7 @@ export function Home(){
       filteredProducts: !filterPrueba ? filterProducts(products) : filterProducts(useSort(filterPrueba, orderBy)),
     }))
     //setCurrentPage(1);    
-  }, [loading, filters, search, orderBy, window.innerWidth])
+  }, [loading, filters, search, orderBy])
   return (
     <>
     <Navbar />
