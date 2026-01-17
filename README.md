@@ -5,9 +5,11 @@ Este proyecto consiste en una plataforma de comercio electrónico integral, dise
 ## 🚀 Características Técnicas
 
 * **Gestión de Estado Reactiva:** Implementación de un carrito de compras funcional con persistencia de datos y actualización en tiempo real de cantidades y totales.
+* **Diseño Responsive & Adaptativo:** Interfaz optimizada mediante layouts flexibles para garantizar una experiencia de usuario fluida en dispositivos móviles, tablets y desktop.
 * **Filtrado Avanzado:** Sistema de búsqueda y filtrado dinámico por categorías, marcas y rangos de precio, optimizando la recuperación de información desde el cliente.
 * **Interfaz de Usuario (UI):** Diseño minimalista y organizado, con una arquitectura de componentes reutilizables y navegación intuitiva.
 * **Arquitectura de Datos:** Consumo de estructuras de datos JSON para simular un entorno de producción, facilitando una futura integración con APIs RESTful.
+
 
 ## 🛠️ Tecnologías Utilizadas
 
